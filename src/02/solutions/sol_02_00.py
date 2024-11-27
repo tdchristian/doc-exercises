@@ -1,4 +1,12 @@
-# Documentation practice  1
+# Mystery code solution 02_00
+
+"""
+    DONE
+        - Give the function and all variables reasonable names
+        - Write the type annotations
+        - Write a descriptive docstring that tells what it does
+        - Write one docstring example showing a test case
+"""
 
 def remove_odd_numbers(numbers: list) -> list:
     """
@@ -19,4 +27,3 @@ def remove_odd_numbers(numbers: list) -> list:
             even_numbers.append(number)
 
     return even_numbers
-

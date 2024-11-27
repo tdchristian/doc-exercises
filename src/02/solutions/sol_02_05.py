@@ -1,11 +1,11 @@
-# Documentation practice 6
+# Mystery code solution 02_05
 
 """
-    TODO
-        - Write a descriptive docstring that tells what it does
+    DONE
         - Give the function and all variables reasonable names
         - Write the type annotations
-        - Write two docstring examples showing test cases
+        - Write a descriptive docstring that tells what it does
+        - Write one docstring example showing a test case
 """
 
 def compare_words(first_word: str, second_word: str) -> int:

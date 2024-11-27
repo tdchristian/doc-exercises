@@ -1,11 +1,11 @@
-# Documentation practice 8
+# Mystery code solution 02_07
 
 """
-    TODO
-        - Write a descriptive docstring that tells what it does
+    DONE
         - Give the function and all variables reasonable names
         - Write the type annotations
-        - Write two docstring examples showing test cases
+        - Write a descriptive docstring that tells what it does
+        - Write one docstring example showing a test case
 """
 
 def combine_names(first_name, second_name):
