@@ -7,13 +7,13 @@
 
 x = []
 
-y = input('Input, or Q to quit: ')
-while y.upper() != 'Q':
+y = input('Enter something, or Q to stop: ').upper().strip()
+while y != 'Q':
     if y.isalpha():
         x.append(y.title())
 
-    y = input('Input, or Q to quit: ')
+    y = input('Enter something, or Q to stop: ').upper().strip()
 
-print(f'Valid names:')
+print(f'Result:')
 for z in x:
     print(z)

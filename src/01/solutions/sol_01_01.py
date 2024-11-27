@@ -7,11 +7,15 @@
 # 3. Change the variable names to logical ones.
 # 4. If you like, change any inputs and prints to give clearer feedback to the user.
 
-x = input('Enter x: ')
+# This code asks the user to enter some text.
+# Then, it finds all the vowel characters, stores them in a new string,
+# and shows them to the user.
 
-y = ''
-for z in x:
-    if z in 'aeiouAEIOU':
-        y = y + z
+text = input('Enter text: ')
 
-print(y)
+vowels = ''
+for char in text:
+    if char in 'aeiouAEIOU':
+        vowels = vowels + char
+
+print(vowels)

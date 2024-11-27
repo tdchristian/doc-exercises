@@ -7,11 +7,15 @@
 # 3. Change the variable names to logical ones.
 # 4. If you like, change any inputs and prints to give clearer feedback to the user.
 
-x = input('Enter x: ')
+# This code asks the user to enter some text.
+# Then, it tallies the number of punctuation characters in the text
+# and prints the result.
 
-y = 0
-for z in x:
-    if z in '.,!?;:':
-        y = y + 1
+text = input('Enter text: ')
 
-print(y)
+n_punctuation = 0
+for char in text:
+    if char in '.,!?;:':
+        n_punctuation = n_punctuation + 1
+
+print(n_punctuation)

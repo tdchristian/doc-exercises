@@ -7,10 +7,20 @@
 # 3. Change the variable names to logical ones.
 # 4. If you like, change any inputs and prints to give clearer feedback to the user.
 
-x = int(input('Enter a number: '))
+# This code repeatedly asks the user to enter a number
+# until they enter an even number.
 
-while x % 2 != 0:
+# Hint: The % operator is called modulo or mod for short.
+# x % y means "Return the remainder after dividing x by y."
+# 5 % 3 = 2 (5 / 3 = quotient 1, remainder 2)
+# 13 % 4 = 1 (13 / 4 = quotient 3, remainder 1)
+# So if you do any number % 2, you'll find out if it's even:
+# even numbers have a remainder of 0; odd numbers have a remainder of 1.
+
+n = int(input('Enter a number: '))
+
+while n % 2 != 0:
     print('Try again')
-    x = int(input('Enter a number: '))
+    n = int(input('Enter a number: '))
 
 print('That will do')

@@ -5,13 +5,13 @@
 # 3. Change the variable names to logical ones.
 # 4. If you like, change any inputs and prints to give clearer feedback to the user.
 
-x = [-10, 0, 1, 2, 3, 5, 8, 13, 21, 34, 55, 89, 154, 245, 1_000, 1_000_000]
-y = []
+X = [-10, 0, 1, 2, 3, 5, 8, 13, 21, 34, 55, 89, 154, 245, 1_000, 1_000_000]
 
-z = int(input('Input: '))
+y = int(input('Enter something: '))
 
-for a in x:
-    if a >= z:
-        y.append(a)
+z = []
+for a in X:
+    if a >= y:
+        z.append(a)
 
-print(f'{len(y)} / {len(x)}')
+print(f'{len(z)} / {len(X)}')

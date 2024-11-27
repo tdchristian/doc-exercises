@@ -7,15 +7,20 @@
 # 3. Change the variable names to logical ones.
 # 4. If you like, change any inputs and prints to give clearer feedback to the user.
 
-x = []
+# This code repeatedly asks the user to enter names. If they enter "Q",
+# it stops. Each name is checked that it only consists of alphabetic
+# characters, and if so, it's converted to title case and added to a list.
+# Once the user stops, it prints each of the names that were retained.
 
-y = input('Enter a name or Q to quit: ')
-while y.upper() != 'Q':
-    if y.isalpha():
-        x.append(y.title())
+valid_names = []
 
-    y = input('Enter a name or Q to quit: ')
+name = input('Enter a name, or Q to stop: ').upper().strip()
+while name != 'Q':
+    if name.isalpha():
+        valid_names.append(name.title())
+
+    name = input('Enter a name, or Q to stop: ').upper().strip()
 
 print(f'Valid names:')
-for z in x:
-    print(z)
+for name in valid_names:
+    print(name)

@@ -5,9 +5,10 @@
 # 3. Change the variable names to logical ones.
 # 4. If you like, change any inputs and prints to give clearer feedback to the user.
 
-x = '<>:"/\|?*'
-y = '_'
-z = input('Input: ')
+X = '<>:"/\|?*'
+Y = '_'
+
+z = input('Enter something: ')
 
 for a in x:
     z = z.replace(a, y)
