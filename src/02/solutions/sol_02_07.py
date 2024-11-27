@@ -8,7 +8,7 @@
         - Write one docstring example showing a test case
 """
 
-def combine_names(first_name, second_name):
+def combine_names(first_name: str, second_name: str) -> str:
     """
     Combine strings first_name and second_name by taking
     the first half of first_name and the second half of second_name.

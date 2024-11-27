@@ -8,7 +8,7 @@
         - Write one docstring example showing a test case
 """
 
-def multiply_list(numbers: list) -> int:
+def multiply_list(numbers: list[int]) -> int:
     """
     Return the cumulative product of all the given numbers.
 

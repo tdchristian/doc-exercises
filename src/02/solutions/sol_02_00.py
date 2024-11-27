@@ -8,7 +8,7 @@
         - Write one docstring example showing a test case
 """
 
-def remove_odd_numbers(numbers: list) -> list:
+def remove_odd_numbers(numbers: list[int]) -> list[int]:
     """
     Take a list of numbers and return only the even ones.
 

@@ -8,7 +8,7 @@
         - Write one docstring example showing a test case
 """
 
-def exclude(a: list, b: list) -> set:
+def exclude(a: list[object], b: list[object]) -> list[object]:
     """
     Return the items in a that are not b.
 

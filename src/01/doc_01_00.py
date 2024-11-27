@@ -5,7 +5,7 @@
 # 3. Change the variable names to logical ones.
 # 4. If you like, change any inputs and prints to give clearer feedback to the user.
 
-x = input('Input: ')
+x = input('Enter something: ')
 
 y = 0
 for z in x:

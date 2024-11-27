@@ -8,7 +8,7 @@
         - Write one docstring example showing a test case
 """
 
-def get_chars_occurring_n_times(s: str, n: int) -> list:
+def get_chars_occurring_n_times(s: str, n: int) -> list[str]:
     """
     Return a list of the characters in s that occur exactly n times.
 
@@ -29,6 +29,6 @@ def get_chars_occurring_n_times(s: str, n: int) -> list:
     result = []
     for char in counts:
         if counts[char] == n:
-            result.append(f)
+            result.append(char)
 
     return result
