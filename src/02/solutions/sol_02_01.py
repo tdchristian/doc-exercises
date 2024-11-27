@@ -1,4 +1,12 @@
-# Documentation practice 2
+# Mystery code solution 02_01
+
+"""
+    DONE
+        - Give the function and all variables reasonable names
+        - Write the type annotations
+        - Write a descriptive docstring that tells what it does
+        - Write one docstring example showing a test case
+"""
 
 def exclude(a: list, b: list) -> set:
     """

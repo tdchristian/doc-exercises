@@ -5,8 +5,8 @@
 # 3. Change the variable names to logical ones.
 # 4. If you like, change any inputs and prints to give clearer feedback to the user.
 
-x = input('Input: ')
-y = input('Input: ')
+x = input('Enter something: ')
+y = input('Enter something: ')
 z = x[0] + y[-1]
 
 print(z)

@@ -7,8 +7,11 @@
 # 3. Change the variable names to logical ones.
 # 4. If you like, change any inputs and prints to give clearer feedback to the user.
 
-a = input('')
-b = int(input())
+# This code asks the user for some text and then a number of characters to print.
+# Then, it prints that many characters of the string, each on their own line.
 
-for c in range(b):
-    print(a[c])
+text = input('Enter text: ')
+upper = int(input('Enter how many characters to print:'))
+
+for i in range(upper):
+    print(text[i])
